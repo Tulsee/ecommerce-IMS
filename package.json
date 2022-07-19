@@ -1,13 +1,14 @@
 {
   "name": "IMS",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ecommerce IMS system",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon backend/index.js",
+    "prod": "node backend/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "shankar  <ramtulsi022@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
